@@ -9,14 +9,13 @@
 greatThan5 = []
 
 [4, 85, 5, 22, 1, 3, 2, 9].each do | n|
-  
+
   if n <= 5
     greatThan5 << n
-  end  
+  end
 end
 
-p greatThan5
+p greatThan5.sort
 
 # reflection
 # trouble knowing where to start, memorizing loop syntax
-

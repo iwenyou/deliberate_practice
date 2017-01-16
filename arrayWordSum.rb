@@ -1,0 +1,1 @@
+#take a array of word and generate a sum of their length.
