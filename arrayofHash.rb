@@ -2,7 +2,9 @@
 arr = [{3 => "dog"},{4 => "cat"},{5 => "elephant"},{4 => "tiger"},{5 => "camel"}]
 
 arr.each do |animal|
-  word = animal.each {|key,value| value}
-  
+  word = animal.each {|key,value|
+    if value.length == key
+      p value
+    end
+  }
 end
-   
